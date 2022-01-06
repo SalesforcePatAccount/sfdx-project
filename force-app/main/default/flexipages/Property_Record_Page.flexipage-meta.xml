@@ -162,15 +162,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>tabs</name>
-                    <value>sidebartabs</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:tabset</componentName>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
                     <name>latField</name>
                     <value>Location__Latitude__s</value>
                 </componentInstanceProperties>
@@ -183,6 +174,15 @@
                     <value>Name</value>
                 </componentInstanceProperties>
                 <componentName>RecordMap</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>tabs</name>
+                    <value>sidebartabs</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tabset</componentName>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
