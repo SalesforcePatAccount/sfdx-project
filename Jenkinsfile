@@ -29,7 +29,7 @@ node {
 
  	withEnv(["HOME=${env.WORKSPACE}"]) {	
 	
-	    withCredentials([file(credentialsId: SERVER_KEY_CREDENTIALS_ID, variable: 'server_key_file')]) {
+	    withCredentials([file(credentialsId: SERVER_KEY_CREDENTIALS_ID, variable: '/usr/jdoe/JWT/server.key')]) {
 		// -------------------------------------------------------------------------
 		// Authenticate to Salesforce using the server key.
 		// -------------------------------------------------------------------------
