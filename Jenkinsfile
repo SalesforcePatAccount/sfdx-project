@@ -24,6 +24,8 @@ node {
 
     stage('checkout source') {
         checkout scm
+        
+        sfdx --version
     }
 
 
