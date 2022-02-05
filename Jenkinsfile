@@ -15,8 +15,7 @@ node {
     def toolbelt = tool 'toolbelt'
     
     
-    //Aggiunto da me
-    def sfdx = tool 'sfdx'
+  
 
     // -------------------------------------------------------------------------
     // Check out code from source control.
@@ -25,7 +24,6 @@ node {
     stage('checkout source') {
         checkout scm
         
-        sfdx --version
     }
 
 
